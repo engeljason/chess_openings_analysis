@@ -8,11 +8,11 @@
 ### If you are *ahead* then you need to save your changes
   * `git stash push`
 #### Then change to the branch you meant to be on
- * `git checkout yourname/branch-name`
+ * `git checkout feature/branch-name`
 #### Load your saved changes
  * `git stash pop`
 ## Make a branch 
-  * `git checkout -b yourname/branch-name`
+  * `git checkout -b feature/branch-name`
 ## Make whatever changes to the code you mean to make
 ## Confirm that the files you edited are changed, and that there aren't changes you don't expect
   * `git status`
@@ -21,7 +21,7 @@
 ## Commit changes
   * `git commit -a -m "commit message here"`
 ## Push changes to github
-  * `git push --set-upstream origin yourname/branch-name`
+  * `git push --set-upstream origin feature/branch-name`
     * Don't worry if you forgot this command, if you `git push` git will give that exact same command to you to cut and paste
 ## Create a pull request to add changes to main branch
   * On webpage, click **Pull Requests**
