@@ -31,3 +31,4 @@
 ### This should be thorough and readable by your teammates
 ### You should also include a way to confirm the changes are working as intended and not just silently doing something wrong or weird
   * Click **Create Pull Request**
+## While you are on the website, approve any outstanding PRs from your teammates, after checking them out and thoroughly testing them of course (or at least reading the changes and making sure they make sense)
